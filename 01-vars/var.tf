@@ -32,5 +32,5 @@ output "y_1" {
 }
 
 output "z_x" {
-  value = var.z_map[x]
+  value = var.z_map["x"]
 }
