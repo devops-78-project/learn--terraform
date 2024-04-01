@@ -1,11 +1,11 @@
 module "demo" {
   source = "./demo"
-  name = "demo-1"
+  name = "frontend"
   instance_type = "t2.micro"
 }
 
 module "demo-1" {
   source = "./demo"
-  name = "demo-2"
+  name = "backend"
   instance_type = "t2.micro"
 }
