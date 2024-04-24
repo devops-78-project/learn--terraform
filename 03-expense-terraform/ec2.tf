@@ -30,6 +30,7 @@ variable "ami" {
   default = "ami-05f020f5935e52dc4"
 }
 
+
 variable "instance_type" {
   default = "t2.micro"
 }
