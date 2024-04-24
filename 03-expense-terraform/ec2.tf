@@ -27,7 +27,7 @@ resource "aws_instance" "mysql" {
 }
 
 variable "ami" {
-  default = "ami-05f020f5935e52dc4"
+  default = "ami-090252cbe067a9e58"
 }
 
 
