@@ -10,18 +10,12 @@ resource "aws_instance" "test" {
       password = DevOps321
       host     = self.public_ip
     }
-
-
-      inline = [
+    inline = [
         "sudo dnf install nginx -y",
         "sudo systemctl start nginx"
-      ]
+    ]
   }
 }
-
-
-
-
 data "aws_security_group" "selected" {
   name = "allow-all"
 }
