@@ -1,3 +1,3 @@
 bucket = "devops.tf vars"
-key = "test2/prod/state"
+key = "testing/prod/state"
 region = "us-east-1"
