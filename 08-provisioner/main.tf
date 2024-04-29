@@ -7,7 +7,7 @@ resource "aws_instance" "test" {
     connection {
       type     = "ssh"
       user     = "ec2-user"
-      password = DevOps321
+      password = "DevOps321"
       host     = self.public_ip
     }
     inline = [
